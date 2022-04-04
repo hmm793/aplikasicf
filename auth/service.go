@@ -20,7 +20,7 @@ func NewServive() *jwtService {
 	return &jwtService{}
 }
 
-var SECRET_KEY = []byte("BWASTARTUP_sslkdfjlskdfjl")
+var SECRET_KEY = []byte("asdasasgfdfg")
 
 func (s *jwtService) GenerateToken(userID int) (string, error) {
 	claim := jwt.MapClaims{}
